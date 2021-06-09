@@ -1,17 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <App/>
+  </>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+
+
+
+
+//                 print date and time
+// const flname = "SURAJ KUMAR";
+// const currentdate = new Date().toLocaleDateString();
+// const currenttime = new Date().toLocaleTimeString();
+// ReactDOM.render(
+//   <>
+//     <h1>HELLO, MY NAME IS {flname}</h1>
+//     <p>
+//       Current date is {currentdate}
+//     </p>
+//     <p>
+//       Current date is {currenttime}
+//     </p>
+//   </>,
+//   document.getElementById('root')
+// );
+
+
